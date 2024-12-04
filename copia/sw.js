@@ -1,29 +1,30 @@
-//asignar nombre y version de la cache
-const CACHE_NAME = 'v1_cache_GregorioGuerreroPW';
-//ficheros a cachear en la aplicacion
-var urlsTochache = [
+//asiganar nombre y version de la cache 
+const CACHE_NAME='v1_cache_Odalis';
+
+//ficheros para cachear en la aplicacion 
+
+var urlsToCache= [
     './',
-    '.css/styles.css',
-    '.img/favicon.png',
-    '.img/.png',
-    '.img/1.png',
-    '.img/2.png',
-    '.img/3.png',
-    '.img/facebook.png',
-    '.img/Twitter.png',
-    '.img/instagram.png',
-    '.img/v1.png',
-    '.img/v2.png',
-    '.img/v3.png',
-    '.img/favicon_ggm_16x16.png',
-    '.img/favicon_ggm_32x32.png',
-    '.img/favicon_ggm_64x64.png',
-    '.img/favicon_ggm_128x128.png',
-    '.img/favicon_ggm_192x192.png',
-    '.img/favicon_ggm_256x256.png',
-    '.img/favicon_ggm_284x384.png',
-    '.img/favicon_ggm_512x512.png',
-    '.img/favicon_ggm_524x524.png',  
+    './css/styles.css',
+    './img/favicon.png',
+    './img/imagen1.png',
+    './img/imagen2.png',
+    './img/imagen3.png',
+    './img/favicon_16x16.png',
+    './img/favicon_32x32.png',
+    './img/favicon_64x64.png',
+    './img/favicon_128x128.png',
+    './img/favicon_192x192.png',
+    './img/favicon_256x256.png',
+    './img/favicon_384x384.png',
+    './img/favicon_512x512.png',
+    './img/favicon_1024x1024.png',
+    './img/face.png',
+    './img/insta.png',
+    './img/x.png',
+    './videos/video1.mp4',
+    './videos/video2.mp4',
+    './videos/video3.mp4',
 ]
 
 //Evento install
@@ -80,4 +81,3 @@ self.addEventListener('fetch', e => {
 		})
 	);
 });
-
